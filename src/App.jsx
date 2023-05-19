@@ -1,5 +1,11 @@
-import React from "react";
+import React ,{useState}from "react";
+
+
 export const App=()=>{
+
+ const[dog,setDog]=useState("")
+
+
   return(
   <div>
     <header>犬の画像で癒されよう！！</header>
