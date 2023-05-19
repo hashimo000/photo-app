@@ -1,5 +1,5 @@
 import React ,{useState}from "react";
-
+import Header from "./Header"
 
 export const App=()=>{
  
@@ -13,7 +13,7 @@ export const App=()=>{
 
   return(
   <div>
-    <header>犬の画像で癒されよう！！</header>
+    <Header />
     <div>犬の画像</div>
     <img src={dog} alt="犬の画像"></img>
 
