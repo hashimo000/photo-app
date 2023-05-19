@@ -1,13 +1,15 @@
 div header{
-  background-color: black;
-  color: aliceblue
-};
-button{
-  border-radius: 16px;
-  border: none;
-  padding: 4px 16px;
+ 
+  color: aliceblue;
   text-align: center;
 };
-div{
-  background-color: aqua
+br button{
+  text-align: center;
+};
+div {
+  background-color: rgb(1, 12, 12);
+  text-align: center;
+};
+img{
+  text-align: center
 };

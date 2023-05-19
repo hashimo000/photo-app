@@ -9,9 +9,11 @@ export const App=()=>{
 
   return(
   <div>
-    <Header />
+   <div>
+     <Header />
    
-    <Dogbutton />
+     <Dogbutton />
+   </div>
   </div>
 
 )};

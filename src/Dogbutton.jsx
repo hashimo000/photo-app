@@ -15,8 +15,12 @@ export const Dogbutton=()=>{
 
     return(
         <div>
+            
+            
+            <br></br><Button variant="outline-primary" onClick ={dograndom}>他の犬を探す！</Button>
+
             <Dogphoto dog={dog}/>
-            <Button variant="outline-primary" onClick ={dograndom}>他の犬を探す！</Button>
+           
 
         </div>
     );
