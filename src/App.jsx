@@ -2,9 +2,13 @@ import React ,{useState}from "react";
 
 
 export const App=()=>{
-
+ 
  const[dog,setDog]=useState("")
-
+ const dograndom =async()=>{
+  const res =await fetch('https://dog.ceo/api/breeds/image/random')
+  const data =await res.json();
+  setDog(data.message);
+ };
 
   return(
   <div>
@@ -12,7 +16,7 @@ export const App=()=>{
     <div>犬の画像</div>
     <img src="https://images.dog.ceo/breeds/hound-english/n02089973_2551.jpg" alt="犬の画像"></img>
 
-  <button>他の犬を探す！</button>
+    <br></br><button onClick ={dograndom}>他の犬を探す！</button>
 
   </div>
 
