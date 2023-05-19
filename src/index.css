@@ -1,7 +1,13 @@
-
+div header{
+  background-color: black;
+  color: aliceblue
+};
 button{
   border-radius: 16px;
   border: none;
   padding: 4px 16px;
   text-align: center;
+};
+div{
+  background-color: aqua
 };
