@@ -5,15 +5,18 @@ import Dogbutton from "./Dogbutton";
 
 export const App=()=>{
  
- 
+  const mystyle = {
+    textAlign: "center",
+  };
+  
 
   return(
-  <div>
-   <div>
-     <Header />
+  <div style={mystyle}>
    
-     <Dogbutton />
-   </div>
+    <Header />
+   
+    <Dogbutton />
+   
   </div>
 
 )};

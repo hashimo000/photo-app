@@ -1,15 +1,22 @@
-div header{
+header{
  
   color: aliceblue;
   text-align: center;
+  font-size: large
 };
-br button{
+button{
   text-align: center;
 };
-div {
+div{
   background-color: rgb(1, 12, 12);
-  text-align: center;
+  
 };
 img{
   text-align: center
 };
+.All{
+  text-align: center;
+};
+br{
+  text-align: center;
+}
