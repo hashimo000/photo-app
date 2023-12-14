@@ -45,5 +45,11 @@ npm start
 (必要なライブラリを適宜インストールしてください)
 
 ## 今後の展望
-目的によるTODOのカテゴライズ（学校、仕事、プライベート）をしてみたり、FirebaseでデータをDBに保存してみる。
+FirebaseでデータをDBに保存してみる。
+
+## デモ動画
+
+
+https://github.com/hashimo000/photo-app/assets/103234756/67d7baf5-fa07-4b50-bc8e-161e5a95ca4b
+
 
